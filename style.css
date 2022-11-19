@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(114 215 253);
+  ;
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 67px;
+}
+
+#box1 {
+  background: #fafafa;
+  padding: 24px 100px;
+  border-radius: 20px;
+  width: 50%;
+}
+
+h1,
+h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#myInput {
+  font-size: 18px;
+  width: 79%;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+.addBtn {
+  background-color: rgb(3, 64, 117);
+  font-size: 17px;
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+#main-div {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+h3 {
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+  background: azure;
+  height: 440px;
+  border-radius: 20px;
+}
+
+#box2 {
+  padding: 17px 201px;
+  border-radius: 20px;
+}
+#AnsOptions {
+  list-style: none;
+  display: flex;
+    gap: 20px;
+}
+
+
+img{
+  height: 269px;
+    width: 284px;
+}
